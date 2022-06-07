@@ -1,0 +1,20 @@
+Estate.deployed().then(function(instance){return instance.getter.call();}).then(function(value){return value});
+
+Estate.deployed().then(function(instance){return instance.ReturnAllAdminList.call();}).then(function(value){return value});
+
+ Estate.deployed().then(function(instance){return instance.ReturnAllUserList.call();}).then(function(value){return value});
+
+Estate.deployed().then(function(instance){return instance.isContractOwner.call('0x2D0ff8BF47167c28F30940F45553F97310E1aFc6');}).then(function(value){return value});
+
+ Estate.deployed().then(function(instance){return instance.isUserVerified.call('0x9BD36b311a6464Cde229872f7a07dF167040122a');}).then(function(value){return value});
+
+Estate.deployed().then(function(instance){return instance.changeContractOwner('0x5A0004131AAd38f301bb06B5457e2B0436bE936C');})
+
+Estate.deployed().then(function(instance){return instance.returnAdmin.call('0x527703FF166ed67D2894C8f57E48f65127C2CF4E');}).then(function(value){return value});
+
+
+Estate.deployed().then(function(instance){return instance.registerUser('0x9BD36b311a6464Cde229872f7a07dF167040122a','k','a','a','a');});
+
+Estate.deployed().then(function(instance){return instance.ReturnAllAdminList.call();}).then(function(value){return value});
+
+let contract = await Estate.deployed()

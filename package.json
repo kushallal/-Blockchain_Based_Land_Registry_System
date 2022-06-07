@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ipfs-api": "^26.1.2",
+    "ipfs-http-client": "^56.0.1",
+    "react-router-dom": "^6.2.2"
+  }
+}
